@@ -139,4 +139,7 @@
   <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display/msm8952" revision="lineage-16.0-caf-8952" remote="github" />
   <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media/msm8952" revision="lineage-16.0-caf-8952" remote="github" />
 
+  <!-- SDClang -->
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="pie" />
+
 </manifest>
