@@ -10,6 +10,10 @@
            sync-j="4"
            sync-c="true"/>
 
+  <remote  name="wave"
+           fetch="https://github.com/Wave-Project"
+           revision="p"/>
+
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
   <project name="device/common"/>
   <project name="device/generic/arm64"/>
@@ -708,5 +712,11 @@
   <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan"/>
   <project name="toolchain/binutils"/>
   <project name="toolchain/pgo-profiles"/>
+
+  <!-- Removed projects -->
+  <include name="remove.xml" />
+
+  <!-- Manifest for Wave -->
+  <include name="wave.xml" />
 
 </manifest>

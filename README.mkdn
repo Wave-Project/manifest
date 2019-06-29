@@ -1,0 +1,38 @@
+<p align="center">
+<img src="https://github.com/Wave-Project/manifest/blob/p/wavebanner.png" >
+</p>
+
+# WaveOS #
+
+### Getting started ###
+To get started with manifest/WaveOS, you'll need to get familiar with [Repo](https://source.android.com/source/using-repo.html) and Version Control with [Git](https://source.android.com/source/version-control.html).
+
+To initialize your local repository using the WaveOS trees, use a command like this:
+
+```
+repo init -u https://github.com/Wave-Project/manifest -b p
+```
+
+Then to sync up:
+
+```
+repo sync -c -f --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j8
+```
+
+### Finally to build ###
+
+```
+$ . build/envsetup.sh
+$ brunch wave_$device-userdebug
+```
+-----------------------------------------------------------------------------
+Credits:
+=======
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**AOSiP**](https://github.com/AOSiP)
+ * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**DirtyUnicorns**](https://github.com/dirtyunicorns)
+ * [**ParanoidAndroid**](https://github.com/AOSPA)
+ * [**CypherOS**](https://github.com/CypherOS)
+ * And the list never ends ..........
+-----------------------------------------------------------------------------
