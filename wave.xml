@@ -22,6 +22,7 @@
   <!-- Hardware -->
   <project path="device/qcom/common" name="device_qcom_common" remote="wave" groups="wave" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="wave" groups="wave" />
+  <project path="device/wave/sepolicy" name="device_wave_sepolicy" remote="wave" groups="wave" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="wave" groups="wave" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="wave" groups="wave" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="wave" groups="wave" />
