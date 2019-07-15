@@ -37,7 +37,9 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="wave" groups="wave" />
 
   <!-- Packages -->
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="wave" groups="wave" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="wave" groups="wave" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="wave" groups="wave" />
 
   <!-- External -->
   <project path="external/selinux" name="external_selinux" remote="wave" groups="wave" />
