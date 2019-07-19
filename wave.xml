@@ -45,6 +45,7 @@
   <!-- External -->
   <project path="external/selinux" name="external_selinux" remote="wave" groups="wave" />
   <project path="external/exfat" name="external_exfat" remote="wave" groups="wave" />
+  <project path="external/roboto-fonts" name="external_roboto-fonts" remote="wave" groups="wave" />
 
   <!-- Prebuilts -->
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="wave" groups="wave" />
