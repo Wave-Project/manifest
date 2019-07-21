@@ -14,6 +14,10 @@
            fetch="https://github.com/Wave-Project"
            revision="p"/>
 
+  <remote  name="wavedevices"
+           fetch="https://github.com/WaveDevices"
+           revision="p"/>
+
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
   <project name="device/common"/>
   <project name="device/generic/arm64"/>
