@@ -41,9 +41,11 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="wave" groups="wave" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="wave" groups="wave" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="wave" groups="wave" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="wave" groups="wave" />
 
   <!-- External -->
   <project path="external/selinux" name="external_selinux" remote="wave" groups="wave" />
+  <project path="external/skia" name="external_skia" remote="wave" groups="wave" />
   <project path="external/exfat" name="external_exfat" remote="wave" groups="wave" />
   <project path="external/roboto-fonts" name="external_roboto-fonts" remote="wave" groups="wave" />
 
