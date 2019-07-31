@@ -3,20 +3,12 @@
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
-           review="codeaurora.org"/>
+           review="codeaurora.org" />
 
   <default revision="refs/tags/LA.UM.7.3.r1-07900-sdm845.0"
            remote="caf"
            sync-j="4"
-           sync-c="true"/>
-
-  <remote  name="wave"
-           fetch="https://github.com/Wave-Project"
-           revision="p"/>
-
-  <remote  name="wavedevices"
-           fetch="https://github.com/WaveDevices"
-           revision="p"/>
+           sync-c="true" />
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
   <project name="device/common"/>
