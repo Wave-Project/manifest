@@ -86,12 +86,14 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="wave" groups="wave" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="wave" groups="wave" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth" name="vendor_qcom_opensource_commonsys_bluetooth" remote="wave" groups="wave" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="wave" groups="wave" />
-  <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom-opensource_fm-commonsys" remote="wave" groups="wave" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="wave" groups="wave" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="wave" groups="wave" />
-  <project path="vendor/qcom/opensource/fm" name="vendor_qcom-opensource_fm" remote="wave" groups="wave" />
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" remote="wave" groups="wave" />
+  <project path="vendor/qcom/opensource/fm" name="vendor_qcom_opensource_fm" remote="wave" groups="wave" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="wave" groups="wave" />
+  
   <project path="vendor/wave" name="vendor_wave" remote="wave" groups="wave" />
 
   <!-- Recovery -->
