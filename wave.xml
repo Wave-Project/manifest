@@ -12,6 +12,10 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="wave" groups="wave" />
 
@@ -78,6 +82,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="wave" groups="wave" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="aosp" revision="master" clone-depth="1" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="wave" groups="wave" />
@@ -86,7 +91,7 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="wave" groups="wave" />
-  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="wave" groups="wave" />
+  <!-- project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="wave" groups="wave" -->
   <project path="vendor/qcom/opensource/commonsys/bluetooth" name="vendor_qcom_opensource_commonsys_bluetooth" remote="wave" groups="wave" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="wave" groups="wave" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="wave" groups="wave" />
