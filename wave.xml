@@ -61,6 +61,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="wave" groups="wave" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="wave" groups="wave" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="wave" groups="wave" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="wave" groups="wave" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="wave" groups="wave" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="wave" groups="wave" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="wave" groups="wave" />
@@ -70,6 +71,7 @@
   <project path="packages/apps/SnapdragonGallery" name="packages_apps_SnapdragonGallery" remote="wave" groups="wave" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="wave" groups="wave" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="wave" groups="wave" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="wave" groups="wave" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="wave" groups="wave" />
 
   <!-- External -->
@@ -79,6 +81,11 @@
   <project path="external/roboto-fonts" name="external_roboto-fonts" remote="wave" groups="wave" />
   <project path="external/selinux" name="external_selinux" remote="wave" groups="wave" />
   <project path="external/skia" name="external_skia" remote="wave" groups="wave" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="wave" groups="wave" />
+  <project path="external/libpng" name="external_libpng" remote="wave" groups="wave" />
+  <project path="external/libnl" name="external_libnl" remote="wave" groups="wave" />
+  <project path="external/sqlite" name="external_sqlite" remote="wave" groups="wave" />
+  <project path="external/zlib" name="external_zlib" remote="wave" groups="wave" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="wave" groups="wave" />
@@ -88,6 +95,7 @@
   <project path="system/core" name="system_core" remote="wave" groups="wave" />
   <project path="system/vold" name="system_vold" remote="wave" groups="wave" />
   <project path="system/sepolicy" name="system_sepolicy" remote="wave" groups="wave" />
+  <project path="system/connectivity/wificond" name="system_connectivity_wificond" remote="wave" groups="wave" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="wave" groups="wave" />
