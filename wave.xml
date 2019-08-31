@@ -73,6 +73,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="wave" groups="wave" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="wave" groups="wave" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="wave" groups="wave" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="wave" groups="wave" />
 
   <!-- External -->
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="wave" groups="wave" />
