@@ -132,8 +132,8 @@
   
   <!-- MSM8916 -->
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio/msm8916" revision="lineage-16.0-caf-8916" remote="github" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display/msm8916" revision="p-8916" remote="wave" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media/msm8916" revision="p-8916" remote="wave" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display/msm8916" revision="lineage-16.0-caf-8916" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media/msm8916" revision="lineage-16.0-caf-8916" remote="github" />
   
   <!-- MSM8952 -->
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio/msm8952" revision="lineage-16.0-caf-8952" remote="github" />
