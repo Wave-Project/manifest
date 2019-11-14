@@ -12,7 +12,6 @@
   <remove-project name="platform/external/ant-wireless/ant_native" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libnl" />
-  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/roboto-fonts" />
   <remove-project name="platform/external/selinux" />
