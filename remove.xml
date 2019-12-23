@@ -4,12 +4,15 @@
   <!-- Repos tracked from wave -->
   <remove-project name="device/qcom/common" />
   <remove-project name="device/qcom/sepolicy" />
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/dalvik" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/ant-wireless/ant_native" />
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libnl" />
   <remove-project name="platform/external/proguard" />
@@ -53,7 +56,6 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/connectivity/wificond" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
-  <!--remove-project name="platform/vendor/qcom-opensource/audio" -->
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <remove-project name="platform/vendor/qcom-opensource/data-kernel"/>
