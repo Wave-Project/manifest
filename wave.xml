@@ -27,6 +27,9 @@
   </project>
 
   <!-- Hardware -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="wave" groups="wave" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="wave" groups="wave" />
+  <project path="hardware/wave/interfaces" name="hardware_wave_interfaces" remote="wave" groups="wave" />
 
   <!-- Core -->
   <project path="bionic" name="bionic" remote="wave" groups="wave" />
@@ -48,6 +51,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="wave" groups="wave" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/tools-wave" name="prebuilts_tools-wave" remote="wave" groups="wave" />
 
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="wave" groups="wave" />
@@ -58,7 +62,4 @@
   <!-- Vendor -->
   <project path="vendor/wave" name="vendor_wave" remote="wave" groups="wave" />
 
-  <!-- Recovery -->
-  <project path="bootable/recovery" name="bootable_recovery" remote="wave" groups="wave" />
-  
 </manifest>
