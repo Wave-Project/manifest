@@ -48,6 +48,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="wave" groups="wave" />
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="wave" groups="wave" />
   <project path="external/tinycompress" name="external_tinycompress" remote="wave" groups="wave" />
 
   <!-- Prebuilts -->
