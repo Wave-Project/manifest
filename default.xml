@@ -835,5 +835,6 @@
   <!-- WaveOS -->
   <include name="remove.xml" />
   <include name="wave.xml" />
+  <include name="lineage.xml" />
 
 </manifest>
