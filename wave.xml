@@ -32,6 +32,7 @@
   <project path="hardware/wave/interfaces" name="hardware_wave_interfaces" remote="wave" groups="wave" />
 
   <!-- Core -->
+  <project path="art" name="art" remote="wave" groups="wave" />
   <project path="bionic" name="bionic" remote="wave" groups="wave" />
 
   <!-- Frameworks -->
@@ -42,14 +43,23 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="wave" groups="wave" />
 
   <!-- Packages -->
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="wave" groups="wave" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="wave" groups="wave" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="wave" groups="wave" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="wave" groups="wave" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="wave" groups="wave" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="wave" groups="wave" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="wave" groups="wave" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="wave" groups="wave" />
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="wave" groups="wave" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="wave" groups="wave" />
+  <project path="external/libpng" name="external_libpng" remote="wave" groups="wave" />
+  <project path="external/roboto-fonts" name="external_roboto-fonts" remote="wave" groups="wave" />
+  <project path="external/sqlite" name="external_sqlite" remote="wave" groups="wave" />
   <project path="external/tinycompress" name="external_tinycompress" remote="wave" groups="wave" />
+  <project path="external/zlib" name="external_zlib" remote="wave" groups="wave" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-wave" name="prebuilts_tools-wave" remote="wave" groups="wave" />
@@ -62,5 +72,8 @@
 
   <!-- Vendor -->
   <project path="vendor/wave" name="vendor_wave" remote="wave" groups="wave" />
+  
+  <!-- HALs -->
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" remote="wave" revision="r-caf-sm8150" groups="wave" />
 
 </manifest>
