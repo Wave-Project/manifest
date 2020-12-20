@@ -45,10 +45,12 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="wave" groups="wave" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="wave" groups="wave" />
+  <project path="packages/apps/GCamGOPrebuilt" name="kubersharma001/android_packages_apps_GCamGOPrebuilt" remote="github" revision="master" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="wave" groups="wave" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="wave" groups="wave" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="wave" groups="wave" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="wave" groups="wave" />
+  <project path="packages/apps/WaveWidget" name="packages_apps_WaveWidget" remote="wave" groups="wave" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="wave" groups="wave" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="wave" groups="wave" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="wave" groups="wave" />
