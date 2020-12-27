@@ -97,5 +97,6 @@
   
   <!-- HALs -->
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" remote="wave" revision="r-caf-sm8150" groups="wave" />
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="wave" revision="r-caf-msm8996" groups="wave" />
 
 </manifest>
