@@ -87,6 +87,7 @@
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="wave" groups="wave" />
   <project path="system/core" name="system_core" remote="wave" groups="wave" />
+  <project path="system/netd" name="system_netd" remote="wave" groups="wave" />
   <project path="system/vold" name="system_vold" remote="wave" groups="wave" />
   <project path="system/sepolicy" name="system_sepolicy" remote="wave" groups="wave" />
 
