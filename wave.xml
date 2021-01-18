@@ -37,6 +37,7 @@
   <!-- Core -->
   <project path="art" name="art" remote="wave" groups="wave" />
   <project path="bionic" name="bionic" remote="wave" groups="wave" />
+  <project path="libcore" name="libcore" remote="wave" groups="wave" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="wave" groups="wave" />
