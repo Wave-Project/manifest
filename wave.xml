@@ -76,6 +76,7 @@
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="wave" groups="wave" />
   <project path="external/libpng" name="external_libpng" remote="wave" groups="wave" />
+  <project path="external/motorola/faceunlock" name="waveproject/external_motorola_faceunlock" remote="gitlab" revision="r" groups="wave" />
   <project path="external/roboto-fonts" name="external_roboto-fonts" remote="wave" groups="wave" />
   <project path="external/selinux" name="external_selinux" remote="wave" groups="wave" />
   <project path="external/sqlite" name="external_sqlite" remote="wave" groups="wave" />
