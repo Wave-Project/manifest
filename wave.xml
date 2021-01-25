@@ -73,11 +73,13 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="wave" groups="wave" />
+  <project path="external/cpu_features" name="external_cpu_features" remote="wave" groups="wave" />
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="wave" groups="wave" />
   <project path="external/libpng" name="external_libpng" remote="wave" groups="wave" />
   <project path="external/motorola/faceunlock" name="waveproject/external_motorola_faceunlock" remote="gitlab" revision="r" groups="wave" />
   <project path="external/roboto-fonts" name="external_roboto-fonts" remote="wave" groups="wave" />
+  <project path="external/scudo" name="external_scudo" remote="wave" groups="wave" />
   <project path="external/selinux" name="external_selinux" remote="wave" groups="wave" />
   <project path="external/sqlite" name="external_sqlite" remote="wave" groups="wave" />
   <project path="external/tinycompress" name="external_tinycompress" remote="wave" groups="wave" />
@@ -85,13 +87,16 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-wave" name="prebuilts_tools-wave" remote="wave" groups="wave" />
+  <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="BenzoRom/benzoClang-12.0" remote="github" revision="master" />
 
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="wave" groups="wave" />
   <project path="system/core" name="system_core" remote="wave" groups="wave" />
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="wave" groups="wave" />
   <project path="system/netd" name="system_netd" remote="wave" groups="wave" />
-  <project path="system/vold" name="system_vold" remote="wave" groups="wave" />
+  <project path="system/security" name="system_security" remote="wave" groups="wave" />
   <project path="system/sepolicy" name="system_sepolicy" remote="wave" groups="wave" />
+  <project path="system/vold" name="system_vold" remote="wave" groups="wave" />
 
   <!-- Vendor -->
   <project path="vendor/google/gms" name="waveproject/vendor_google_gms" remote="gitlab" revision="r" groups="wave" />
