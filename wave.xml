@@ -98,6 +98,9 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="wave" groups="wave" />
   <project path="system/vold" name="system_vold" remote="wave" groups="wave" />
 
+  <!-- Recovery -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="wave" groups="wave" />
+
   <!-- Vendor -->
   <project path="vendor/google/gms" name="waveproject/vendor_google_gms" remote="gitlab" revision="r" groups="wave" />
   <project path="vendor/wave" name="vendor_wave" remote="wave" groups="wave" />
