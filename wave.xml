@@ -87,7 +87,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-wave" name="prebuilts_tools-wave" remote="wave" groups="wave" />
-  <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="BenzoRom/benzoClang-12.0" remote="github" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="BenzoRom/benzoClang-13.0" remote="github" revision="master" />
 
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="wave" groups="wave" />
