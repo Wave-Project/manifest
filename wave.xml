@@ -93,6 +93,7 @@
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="wave" groups="wave" />
   <project path="system/core" name="system_core" remote="wave" groups="wave" />
+  <project path="system/iorap" name="system_iorap" remote="wave" groups="wave" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="wave" groups="wave" />
   <project path="system/netd" name="system_netd" remote="wave" groups="wave" />
   <project path="system/security" name="system_security" remote="wave" groups="wave" />
