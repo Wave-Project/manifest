@@ -38,6 +38,7 @@
   <project path="art" name="art" remote="wave" groups="wave" />
   <project path="bionic" name="bionic" remote="wave" groups="wave" />
   <project path="libcore" name="libcore" remote="wave" groups="wave" />
+  <project path="development" name="development" remote="wave" groups="wave" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="wave" groups="wave" />
@@ -70,6 +71,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="wave" groups="wave" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="wave" groups="wave" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="wave" groups="wave" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="wave" groups="wave" />
 
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="wave" groups="wave" />
