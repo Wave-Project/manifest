@@ -9,6 +9,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/cpu_features" />
+  <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/noto-fonts" />
@@ -52,6 +53,7 @@
   <remove-project name="platform/system/iorap" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/libufdt" />
+  <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />

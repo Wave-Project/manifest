@@ -79,6 +79,7 @@
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="wave" groups="wave" />
   <project path="external/cpu_features" name="external_cpu_features" remote="wave" groups="wave" />
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="wave" groups="wave" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="wave" groups="wave" />
   <project path="external/libpng" name="external_libpng" remote="wave" groups="wave" />
   <project path="external/motorola/faceunlock" name="waveproject/external_motorola_faceunlock" remote="gitlab" revision="r" groups="wave" />
@@ -98,6 +99,7 @@
   <project path="system/core" name="system_core" remote="wave" groups="wave" />
   <project path="system/iorap" name="system_iorap" remote="wave" groups="wave" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="wave" groups="wave" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="wave" groups="wave" />
   <project path="system/netd" name="system_netd" remote="wave" groups="wave" />
   <project path="system/security" name="system_security" remote="wave" groups="wave" />
   <project path="system/sepolicy" name="system_sepolicy" remote="wave" groups="wave" />
