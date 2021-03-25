@@ -119,7 +119,9 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="wave" groups="wave" />
   
   <!-- HALs -->
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" remote="wave" revision="r-caf-sm8150" groups="wave" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" remote="wave" revision="r-caf-sm8150" groups="wave" />
+  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" remote="wave" revision="r-caf-sm8150" groups="wave" />
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="wave" revision="r-caf-msm8996" groups="wave" />
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" remote="wave" revision="r-caf-msm8996" groups="wave" />
 
