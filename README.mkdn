@@ -4,7 +4,10 @@
 
 # WaveOS
 
-### Getting started:
+Android custom ROM project based on AOSP, with a perfect blend of aesthetic, functionality and most importantly, performance.
+
+## Getting started
+
 To get started with WaveOS, you'll need to get familiar with [Repo](https://source.android.com/source/using-repo.html) and Version Control with [Git](https://source.android.com/source/version-control.html).
 
 To initialize the WaveOS sources locally, use a command like this:
@@ -17,20 +20,29 @@ Then to sync up:
 $ repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
-### Finally, to build: ###
+## Finally, to build
+
 ```
 $ source build/envsetup.sh
 $ brunch <device>
 ```
----------------------------------
-Credits:
------
- * [**ParanoidAndroid**](https://github.com/AOSPA)
+
+## Credits
+
  * [**LineageOS**](https://github.com/LineageOS)
- * [**POSP**](https://github.com/PotatoProject)
- * [**PixelExperience**](https://github.com/PixelExperience)
- * [**DirtyUnicorns**](https://github.com/dirtyunicorns)
- * [**CypherOS**](https://github.com/CypherOS)
+ * [**Paranoid Android**](https://github.com/AOSPA)
+ * [**CodeAurora Forum**](https://source.codeaurora.org/quic/la/)
+ * [**ArrowOS**](https://github.com/ArrowOS)
  * [**BenzoRom**](https://github.com/BenzoRom)
+ * [**ProtonAOSP**](https://github.com/ProtonAOSP)
+ * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**ABC-ROM**](https://github.com/ezio84)
+ * [**ExtendedUI**](https://github.com/Extended-UI/)
+ * [**crDroid**](https://github.com/crDroidAndroid)
+ * [**AospExtended**](https://github.com/AospExtended)
+ * [**Syberia Project**](https://github.com/syberia-project)
  * and the list never ends ...
----------------------------------
+
+## Submitting Patches
+
+Our ROM is open source, and patches are always welcome! We do not have a Code Review platform such as Gerrit (yet), so you can use GitHub pull requests to submit your patches.
