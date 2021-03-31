@@ -44,6 +44,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="wave" groups="wave" />
   <project path="frameworks/base" name="frameworks_base" remote="wave" groups="wave" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="wave" groups="wave" />
+  <project path="frameworks/ml" name="frameworks_ml" remote="wave" groups="wave" />
   <project path="frameworks/native" name="frameworks_native" remote="wave" groups="wave" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="wave" groups="wave" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="wave" groups="wave" />
