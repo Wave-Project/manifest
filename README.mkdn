@@ -46,3 +46,7 @@ $ brunch <device>
 ## Submitting Patches
 
 Our ROM is open source, and patches are always welcome! We do not have a Code Review platform such as Gerrit (yet), so you can use GitHub pull requests to submit your patches.
+
+## Maintainership
+
+Have you built WaveOS for your device, enjoyed it, and ready to take on a longer journey and be a part of the team by maintaining WaveOS officially for your device? Fill out our maintainership form at https://forms.gle/oA8nJnu5BgLCD4KDA today and we'll reach out to you soon enough!
