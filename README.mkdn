@@ -12,12 +12,12 @@ To get started with WaveOS, you'll need to get familiar with [Repo](https://sour
 
 To initialize the WaveOS sources locally, use a command like this:
 ```
-$ repo init -u https://github.com/Wave-Project/manifest -b r
+ repo init -u https://github.com/Wave-Project/manifest -b r
 ```
 
 Then to sync up:
 ```
-$ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 ## Finally, to build
