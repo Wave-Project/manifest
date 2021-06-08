@@ -43,7 +43,6 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="wave" groups="wave" />
   <project path="frameworks/base" name="frameworks_base" remote="wave" groups="wave" />
-  <project path="frameworks/libs/native_bridge_support " name="frameworks_libs_native_bridge_support" remote="wave" groups="wave" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="wave" groups="wave" />
   <project path="frameworks/ml" name="frameworks_ml" remote="wave" groups="wave" />
   <project path="frameworks/native" name="frameworks_native" remote="wave" groups="wave" />
@@ -102,7 +101,6 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-wave" name="prebuilts_tools-wave" remote="wave" groups="wave" />
-  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="wave" groups="wave" />
   <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="BenzoRom/benzoClang-13.0" remote="github" revision="master" />
 
   <!-- System -->
