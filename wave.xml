@@ -76,6 +76,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="wave" groups="wave" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="wave" groups="wave" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="wave" groups="wave" />
+  <project path="packages/apps/faceunlockservice" name="waveproject/packages_apps_faceunlockservice" remote="gitlab" revision="r"  groups="wave" />
 
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="wave" groups="wave" />
@@ -88,7 +89,7 @@
   <project path="external/libpng" name="external_libpng" remote="wave" groups="wave" />
   <project path="external/libvpx" name="external_libvpx" remote="wave" groups="wave" />
   <project path="external/libyuv" name="external_libyuv" remote="wave" groups="wave" />
-  <project path="external/motorola/faceunlock" name="waveproject/external_motorola_faceunlock" remote="gitlab" revision="r" groups="wave" />
+  <project path="external/faceunlock" name="waveproject/external_faceunlock" remote="gitlab" revision="r" groups="wave" />
   <project path="external/noto-fonts" name="external_noto-fonts" remote="wave" groups="wave" />
   <project path="external/scudo" name="external_scudo" remote="wave" groups="wave" />
   <project path="external/selinux" name="external_selinux" remote="wave" groups="wave" />
