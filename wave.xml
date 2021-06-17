@@ -140,5 +140,6 @@
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="wave" groups="wave" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="wave" groups="wave" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="wave" groups="wave" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="wave" groups="wave" />
 
 </manifest>
