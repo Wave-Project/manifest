@@ -32,6 +32,7 @@
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="wave" groups="wave" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="wave" groups="wave" />
+  <project path="hardware/ril" name="hardware_ril" remote="wave" groups="wave" />
   <project path="hardware/wave/interfaces" name="hardware_wave_interfaces" remote="wave" groups="wave" />
 
   <!-- Core -->
@@ -81,34 +82,40 @@
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="wave" groups="wave" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="wave" groups="wave" />
+  <project path="external/compiler-rt" name="external_compiler-rt" remote="wave" groups="wave" />
   <project path="external/cpu_features" name="external_cpu_features" remote="wave" groups="wave" />
+  <project path="external/dtc" name="external_dtc" remote="wave" groups="wave" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="wave" groups="wave" />
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="wave" groups="wave" />
+  <project path="external/honggfuzz" name="external_honggfuzz" remote="wave" groups="wave" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="wave" groups="wave" />
   <project path="external/libpng" name="external_libpng" remote="wave" groups="wave" />
   <project path="external/libvpx" name="external_libvpx" remote="wave" groups="wave" />
   <project path="external/libyuv" name="external_libyuv" remote="wave" groups="wave" />
   <project path="external/faceunlock" name="waveproject/external_faceunlock" remote="gitlab" revision="r" groups="wave" />
   <project path="external/noto-fonts" name="external_noto-fonts" remote="wave" groups="wave" />
+  <project path="external/python/cpython2" name="external_python_cpython2" remote="wave" groups="wave" />
   <project path="external/scudo" name="external_scudo" remote="wave" groups="wave" />
   <project path="external/selinux" name="external_selinux" remote="wave" groups="wave" />
   <project path="external/sqlite" name="external_sqlite" remote="wave" groups="wave" />
   <project path="external/tinycompress" name="external_tinycompress" remote="wave" groups="wave" />
   <project path="external/zlib" name="external_zlib" remote="wave" groups="wave" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="wave" groups="wave" />
 
   <!-- Tools -->
   <project path="tools/metalava" name="tools_metalava" remote="wave" groups="wave" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-wave" name="prebuilts_tools-wave" remote="wave" groups="wave" />
-  <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="BenzoRom/benzoClang-13.0" remote="github" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86" name="StatiXOS/android_prebuilts_clang_host_linux-x86" remote="github" revision="11" clone-depth="1" />
 
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="wave" groups="wave" />
   <project path="system/core" name="system_core" remote="wave" groups="wave" />
   <project path="system/iorap" name="system_iorap" remote="wave" groups="wave" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="wave" groups="wave" />
+  <project path="system/linkerconfig" name="system_linkerconfig" remote="wave" groups="wave" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="wave" groups="wave" />
   <project path="system/netd" name="system_netd" remote="wave" groups="wave" />
   <project path="system/security" name="system_security" remote="wave" groups="wave" />
@@ -137,6 +144,7 @@
 
   <!-- CAF Additions -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="wave" groups="wave" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="wave" groups="wave" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="wave" groups="wave" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="wave" groups="wave" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="wave" groups="wave" />
