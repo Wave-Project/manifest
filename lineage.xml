@@ -95,6 +95,7 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="lineage" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="LineageOS" />
 
   <!-- LineageOS additions -->
   <project path="external/bash" name="android_external_bash" remote="lineage" />
