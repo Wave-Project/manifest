@@ -11,6 +11,9 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com"/>
 
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org"/>
+
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="wave" groups="wave" />
 
@@ -77,7 +80,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="wave" groups="wave" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="wave" groups="wave" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="wave" groups="wave" />
-  <project path="packages/apps/faceunlockservice" name="waveproject/packages_apps_faceunlockservice" remote="gitlab" revision="r"  groups="wave" />
+  <project path="packages/apps/faceunlockservice" name="wave-project/packages_apps_faceunlockservice" remote="bitbucket" revision="r"  groups="wave" />
 
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="wave" groups="wave" />
@@ -93,7 +96,7 @@
   <project path="external/libpng" name="external_libpng" remote="wave" groups="wave" />
   <project path="external/libvpx" name="external_libvpx" remote="wave" groups="wave" />
   <project path="external/libyuv" name="external_libyuv" remote="wave" groups="wave" />
-  <project path="external/faceunlock" name="waveproject/external_faceunlock" remote="gitlab" revision="r" groups="wave" />
+  <project path="external/faceunlock" name="wave-project/external_faceunlock" remote="bitbucket" revision="r" groups="wave" />
   <project path="external/noto-fonts" name="external_noto-fonts" remote="wave" groups="wave" />
   <project path="external/python/cpython2" name="external_python_cpython2" remote="wave" groups="wave" />
   <project path="external/scudo" name="external_scudo" remote="wave" groups="wave" />
@@ -127,7 +130,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="wave" groups="wave" />
 
   <!-- Vendor -->
-  <project path="vendor/google/gms" name="waveproject/vendor_google_gms" remote="gitlab" revision="r" groups="wave" />
+  <project path="vendor/google/gms" name="wave-project/vendor_google_gms" remote="bitbucket" revision="r" groups="wave" />
   <project path="vendor/wave" name="vendor_wave" remote="wave" groups="wave" />
   
   <!-- Sepolicy -->
