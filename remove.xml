@@ -14,12 +14,14 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/honggfuzz" />
+  <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libunwind" />
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libyuv" />
   <remove-project name="platform/external/noto-fonts" />
+  <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/python/cpython2" />
   <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/selinux" />

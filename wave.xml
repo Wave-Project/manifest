@@ -92,18 +92,20 @@
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="wave" groups="wave" />
   <project path="external/honggfuzz" name="external_honggfuzz" remote="wave" groups="wave" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="wave" groups="wave" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="wave" groups="wave" />
   <project path="external/libpng" name="external_libpng" remote="wave" groups="wave" />
   <project path="external/libvpx" name="external_libvpx" remote="wave" groups="wave" />
   <project path="external/libyuv" name="external_libyuv" remote="wave" groups="wave" />
   <project path="external/faceunlock" name="wave-project/external_faceunlock" remote="bitbucket" revision="r" groups="wave" />
   <project path="external/noto-fonts" name="external_noto-fonts" remote="wave" groups="wave" />
+  <project path="external/openssh" name="external_openssh" remote="wave" groups="wave" />
   <project path="external/python/cpython2" name="external_python_cpython2" remote="wave" groups="wave" />
   <project path="external/scudo" name="external_scudo" remote="wave" groups="wave" />
   <project path="external/selinux" name="external_selinux" remote="wave" groups="wave" />
   <project path="external/sqlite" name="external_sqlite" remote="wave" groups="wave" />
   <project path="external/tinycompress" name="external_tinycompress" remote="wave" groups="wave" />
-  <project path="external/zlib" name="external_zlib" remote="wave" groups="wave" />
+  <project path="external/zlib-ng" name="external_zlib-ng" remote="wave" groups="wave" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="wave" groups="wave" />
 
   <!-- Tools -->
