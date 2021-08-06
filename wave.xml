@@ -62,6 +62,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="wave" groups="wave" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="wave" groups="wave" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="wave" groups="wave" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="wave" groups="wave" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="wave" groups="wave" />
   <project path="packages/apps/GCamGOPrebuilt" name="kubersharma001/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-11.0" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="wave" groups="wave" />
@@ -80,7 +81,6 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="wave" groups="wave" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="wave" groups="wave" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="wave" groups="wave" />
-  <project path="packages/apps/faceunlockservice" name="wave-project/packages_apps_faceunlockservice" remote="bitbucket" revision="r"  groups="wave" />
 
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="wave" groups="wave" />
@@ -91,13 +91,13 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="wave" groups="wave" />
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="wave" groups="wave" />
+  <project path="external/faceunlock" name="wave-project/external_faceunlock" remote="bitbucket" revision="r" groups="wave" />
   <project path="external/honggfuzz" name="external_honggfuzz" remote="wave" groups="wave" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="wave" groups="wave" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="wave" groups="wave" />
   <project path="external/libpng" name="external_libpng" remote="wave" groups="wave" />
   <project path="external/libvpx" name="external_libvpx" remote="wave" groups="wave" />
   <project path="external/libyuv" name="external_libyuv" remote="wave" groups="wave" />
-  <project path="external/faceunlock" name="wave-project/external_faceunlock" remote="bitbucket" revision="r" groups="wave" />
   <project path="external/noto-fonts" name="external_noto-fonts" remote="wave" groups="wave" />
   <project path="external/openssh" name="external_openssh" remote="wave" groups="wave" />
   <project path="external/python/cpython2" name="external_python_cpython2" remote="wave" groups="wave" />
