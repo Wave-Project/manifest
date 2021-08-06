@@ -115,7 +115,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-wave" name="prebuilts_tools-wave" remote="wave" groups="wave" />
-  <project path="prebuilts/clang/host/linux-x86" name="StatiXOS/android_prebuilts_clang_host_linux-x86" remote="github" revision="11" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="wave" groups="wave" clone-depth="1" />
 
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="wave" groups="wave" />
