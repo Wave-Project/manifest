@@ -118,6 +118,7 @@
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="wave" groups="wave" />
   <project path="system/core" name="system_core" remote="wave" groups="wave" />
+  <project path="system/hwservicemanager" name="system_hwservicemanager" remote="wave" groups="wave" />
   <project path="system/iorap" name="system_iorap" remote="wave" groups="wave" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="wave" groups="wave" />
   <project path="system/linkerconfig" name="system_linkerconfig" remote="wave" groups="wave" />
