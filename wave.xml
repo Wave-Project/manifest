@@ -126,6 +126,7 @@
   <project path="system/netd" name="system_netd" remote="wave" groups="wave" />
   <project path="system/security" name="system_security" remote="wave" groups="wave" />
   <project path="system/sepolicy" name="system_sepolicy" remote="wave" groups="wave" />
+  <project path="system/tools/hidl" name="system_tools_hidl" remote="wave" groups="wave" />
   <project path="system/update_engine" name="system_update_engine" remote="wave" groups="wave" />
   <project path="system/vold" name="system_vold" remote="wave" groups="wave" />
 
