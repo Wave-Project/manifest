@@ -73,6 +73,8 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="wave" groups="wave" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="wave" groups="wave" />
   <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="github" revision="rvc" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="wave" groups="wave" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="wave" groups="wave" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="wave" groups="wave" />
   <project path="packages/apps/WaveBalls" name="packages_apps_WaveBalls" remote="wave" groups="wave" />
   <project path="packages/apps/WaveWidget" name="packages_apps_WaveWidget" remote="wave" groups="wave" />
@@ -81,7 +83,6 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="wave" groups="wave" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="wave" groups="wave" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="wave" groups="wave" />
-  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="wave" groups="wave" />
 
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="wave" groups="wave" />
