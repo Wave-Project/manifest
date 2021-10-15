@@ -3,7 +3,7 @@
 
   <remote  name="wave"
            fetch="https://github.com/Wave-Project"
-           revision="r" />
+           revision="s" />
 
   <remote  name="github"
            fetch="https://github.com/" />
